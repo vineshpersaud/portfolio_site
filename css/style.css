@@ -91,6 +91,11 @@ a:hover {
   color: #F18C8E;
 }
 
+#intro img:hover{
+
+  transform: scale(1.25);
+}
+
 #footer{
   height: 10vh;
   text-align: center;
@@ -110,5 +115,9 @@ a:hover {
 
   .project img{
     width: 35vh;
+  }
+  #intro img{
+    width: 38px;
+    height: inherit;
   }
 }
