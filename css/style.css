@@ -1,0 +1,114 @@
+* {
+        font-family: 'Poiret One', cursive;
+        color: white;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+#nav{
+  color: white;
+    z-index: 1;
+    height: 6vh;
+    padding: 0%;
+    margin: 0%;
+}
+#nav li{
+  display:inline-block;
+  font-size:18px;
+  padding-left: 20%;
+  margin-top: 5%;
+
+}
+#nav ul{
+margin-left: 75%;
+}
+
+ #pg1{
+   background:
+  linear-gradient(
+  rgba(0, 0, 0, 0.45),
+  rgba(63, 191, 191, 0.15)
+  ),
+  url("../images/computer.jpg");
+  background-color: #8FB9A8;
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+  z-index: 1 */
+}
+#pg2{
+  height:70vh;
+  text-align: center;
+  background-color: rgba(63, 191, 191);
+}
+
+#intro{
+  margin-top: 14vh;
+}
+.introtext{
+  color: #EFEEEE;
+  font-size: 44px;
+  margin-top: 6vh;
+  text-align: center;
+  text-shadow: #255 0px 0px 1px;
+-webkit-font-smoothing: antialiased;
+}
+
+
+.introtext li{
+  margin-top: 90px;
+  margin-right: 30px;
+  display: inline-block;
+}
+
+.project:hover {
+  -webkit-transition: transform 1s ease-in-out;
+  transform: scale(1.05);
+}
+
+.project{
+  float: left;
+  height: 55%;
+  width: 50%;
+}
+.project img{
+  width: 80%;
+}
+
+.project a {
+  font-family: 'Poiret One', cursive;
+  text-decoration: none;
+  color: white;
+
+}
+.project h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+a:hover {
+  color: #F18C8E;
+}
+
+#footer{
+  height: 10vh;
+  text-align: center;
+  background-color: #325D79;
+}
+#footer p {
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 850px) {
+  .project{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30vh;
+  }
+
+  .project img{
+    width: 35vh;
+  }
+}
