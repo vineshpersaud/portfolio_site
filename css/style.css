@@ -1,5 +1,5 @@
 * {
-        font-family: 'Poiret One', cursive;
+        /* font-family: 'Poiret One', cursive; */
         color: white;
         margin: 0;
         padding: 0;
@@ -24,6 +24,7 @@ margin-left: 75%;
 }
 
  #pg1{
+   font-family: 'Poiret One', cursive;
    background:
   linear-gradient(
   rgba(0, 0, 0, 0.45),
@@ -39,9 +40,14 @@ margin-left: 75%;
   z-index: 1 */
 }
 #pg2{
+  font-family: 'Rajdhani', sans-serif;
   height:70vh;
   text-align: center;
   background-color: rgba(63, 191, 191);
+}
+
+#pg2 h1{
+  padding-top: 1vh;
 }
 
 #intro{
@@ -78,12 +84,12 @@ margin-left: 75%;
 }
 
 .project a {
-  font-family: 'Poiret One', cursive;
   text-decoration: none;
   color: white;
 
 }
 .project h2 {
+  color: #325D79;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -109,17 +115,42 @@ a:hover {
 text-decoration: none;
 }
 
+#pg3{
+  height: 90vh;
+
+}
+
 
   @media only screen and (max-width: 1200px) {
+    #pg2{
+      height:90vh;
+    }
     .project{
-      margin: 0;
-      padding: 0;
+      padding-top: 4vh;
       width: 100%;
       height: 30vh;
     }
 
     .project img{
       width: 35vh;
+    }
+
+    .project h1{
+      padding-top: 20px;
+      font-size: 32px;
+    }
+    .project h2 {
+      font-size: 34px;
+      padding-top: 20px;
+
+    }
+    .project h3 {
+      padding-top: 1vh;
+
+    }
+    .project h3 a{
+      padding-top: 5px;
+      font-size: 30px;
     }
     #intro img{
       width: 38px;
