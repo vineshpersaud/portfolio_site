@@ -106,22 +106,23 @@ a:hover {
 }
 
 #linkproj{
-  text-decoration: none;
+text-decoration: none;
 }
 
-@media only screen and (max-width: 850px) {
-  .project{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 30vh;
-  }
 
-  .project img{
-    width: 35vh;
-  }
-  #intro img{
-    width: 38px;
-    height: inherit;
-  }
+  @media only screen and (max-width: 1200px) {
+    .project{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 30vh;
+    }
+
+    .project img{
+      width: 35vh;
+    }
+    #intro img{
+      width: 38px;
+      height: inherit;
+    }
 }
