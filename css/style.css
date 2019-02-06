@@ -20,7 +20,8 @@
 
 }
 #nav ul{
-margin-left: 75%;
+
+margin-left: 65%;
 }
 
  #pg1{
@@ -125,22 +126,27 @@ text-decoration: none;
     #pg2{
       height:90vh;
     }
+    #pg2 h1 {
+      font-size: 2vh;
+    }
     .project{
       padding-top: 4vh;
+      padding-bottom: 4vh;
       width: 100%;
       height: 30vh;
     }
 
-    .project img{
-      width: 35vh;
+    #pg1 a h3 {
+      font-size: 1.8vh;
     }
 
-    .project h1{
-      padding-top: 20px;
-      font-size: 32px;
+    .project img{
+      width: 89%;
     }
+
+
     .project h2 {
-      font-size: 34px;
+      font-size: 2vh;
       padding-top: 20px;
 
     }
@@ -150,10 +156,14 @@ text-decoration: none;
     }
     .project h3 a{
       padding-top: 5px;
-      font-size: 30px;
+      font-size: 2vh;
+    }
+    .introtext{
+      font-size: 4.3vh;
     }
     #intro img{
-      width: 38px;
-      height: inherit;
+      padding-top: 20vh;
+      width: inherit;
+      height: 4vh;
     }
 }
