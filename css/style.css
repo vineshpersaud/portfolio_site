@@ -43,7 +43,7 @@ padding-right: 1px;
 }
 #pg2{
   font-family: 'Rajdhani', sans-serif;
-  height:120vh;
+  height:1000px;
   text-align: center;
   background-color: rgba(63, 191, 191);
 }
@@ -77,15 +77,14 @@ padding-right: 1px;
 }
 
 .project:hover {
-  -webkit-transition: transform 1s ease-in-out;
-  transform: scale(1.05);
+
 }
 
 .project{
   float: left;
   height: 25%;
   width: 50%;
-  margin-bottom: 175px;
+  margin-bottom: 195px;
 }
 .project img{
   width: 80%;
@@ -101,6 +100,8 @@ padding-right: 1px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
+
+
 a:hover {
   color: #F18C8E;
 }
